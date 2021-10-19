@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolDatabase</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <h2 class="display:inline;">Jadwal 5A 2021/2022 v3.52</h2>
+  <button style="self-align: right; display: inline;" class="btn btn-light" onclick="chat()">Chat</button>
+</header>
+   <div id="inner">
+     <div class=".container p-5 bg-primary text-white" id="zoom">
+        <h1><i class="fas fa-video"></i> Zoom Meeting 5A</h1>
+        <button class="btn btn-light" id="zoom-btn" onclick="zoom()">Klik disini</button>
+    <div class=".container p-5 bg-danger text-white" id="eskul">
+        <h1><i class="fas fa-calendar-day"></i> Jadwal dan Link Eskul</h1>
+        <button class="btn btn-light" id="eskul-btn" onclick="eskul()">Klik disini</button>
+    </div>
+    <div class=".container p-5 bg-success text-white" id="pelajaran">
+        <h1><i class="fas fa-chalkboard-teacher"></i> Jadwal Pelajaran</h1>
+        <button class="btn btn-light" id="pelajaran-btn" onclick="pelajaran()">Klik disini</button>
+    </div>
+    <div class=".container p-5 text-white" id="discordd">
+        <h1><i class="fab fa-discord"></i> Discord Group</h1>
+        <br>
+        <button class="btn btn-light" id="discord-invite" onclick="dsc()">Join</button>
+    </div>
+    <div class=".container p-5 text-white" id="forum">
+        <h1><i class="far fa-comments"></i>5A Forum</h1>
+        <br>
+        <button class="btn btn-light" id="lagu-rohani" onclick="lagu_1()">Join</button>
+    </div>
+    <div class=".container p-5 bg-warning text-white" id="coding">
+        <h1><i class="fas fa-laptop-code"></i> Link Coding</h1>
+        <button class="btn btn-light" id="coding-btn" onclick="coding()">Klik disini</button>
+    </div>
+    <div class=".container p-5 bg-dark text-white" id="classpoint">
+        <h1><i class="fab fa-cuttlefish"></i> ClassPoint</h1>
+        <button class="btn btn-light" id="classpoint-btn" onclick="classpoint()">Klik disini</button>
+    </div>
+    <div class=".container p-5 bg-secondary text-white" id="moodle">
+        <h1><i class="fab fa-leanpub"></i> Moodle</h1>
+        <button class="btn btn-light" id="moodle-btn" onclick="moodle()">Klik disini</button>
+    </div>
+    <div class=".container p-5 bg-primary text-white" id="ibadah">
+        <h1><i class="fas fa-church"></i> Catatan Ibadah</h1>
+        <button class="btn btn-light" id="ibadah-btn" onclick="ibadah()">Klik disini</button>
+    </div>
+    <div class=".container p-5 bg-dark text-white" id="rohani">
+        <h1><i class="fas fa-music"></i> Lagu Rohani</h1>
+        <br>
+        <button class="btn btn-light" id="lagu-rohani" onclick="lagu_1()">Lagu 1</button>
+        <button class="btn btn-light" id="lagu-rohani" onclick="lagu_2()">Lagu 2</button>
+        <button class="btn btn-light" id="lagu-rohani" onclick="lagu_3()">Lagu 3</button>
+    </div>
+    <div class=".container p-3 bg-light text-black">
+        <h1><i class="far fa-sticky-note"></i> Notepad : </h1>
+        <br>
+        <textarea class="form-control" rows=5 id="catatan"></textarea>
+        <button class="btn btn-dark" id="save" onclick="savenote()">Save</button>
+        <button class="btn btn-dark" id="open" onclick="opennote()">Open</button>
+        <button class="btn btn-dark" id="open" onclick="clears()">Clear</button>
+    </div>
+    
+  <div id="tambahan">
+    <h2>Tambahan : -</h2>
+  </div>
+    <p>by Cornelius Christian Copyright 2C 2021©</p>
+    <p>Contributed by Beryl EMS</p>
+  </div>
+   </div>
+    
+  <div id="chat-form">
+    sferfre
+  </div>
+
+</body>
+</html>
